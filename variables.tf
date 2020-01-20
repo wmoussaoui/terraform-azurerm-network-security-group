@@ -56,9 +56,4 @@ variable "destination_address_prefix" {
 }
 
 
-variable "rules" {
-  type    = "list"
-  default = ["*"]
 
-  # Example ["10.0.3.0/32","10.0.3.128/32"] or ["VirtualNetwork"] 
-}
